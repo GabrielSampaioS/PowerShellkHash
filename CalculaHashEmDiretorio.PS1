@@ -2,7 +2,7 @@ param($diretorio)
 
 $ErrorActionPreference = "Stop"
 
-. .\ScriptPowerShell\hash\ShaFile.PS1
+. .\ShaFile.PS1
 
 $arquivos = Get-ChildItem $diretorio -File #Não conseguimos fazer o HASH de diretorios
  
